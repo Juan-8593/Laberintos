@@ -91,7 +91,7 @@ public class Laberinto
         };
 
         Console.WriteLine("Laberinto 2:");
-        Console.WriteLine(Ruta(laberinto1, 0, 0, 4, 4) ? "Camino encontrado" : "No hay camino");
+        Console.WriteLine(Ruta(laberinto1, 0, 0, 4, 4) ? "TRUE" : "FALSE");
 
         int[][] laberinto2 = new int[][]
         {
@@ -106,7 +106,7 @@ public class Laberinto
         };
 
         Console.WriteLine("Laberinto 2:");
-        Console.WriteLine(Ruta(laberinto2, 0, 0, 7, 4) ? "Camino encontrado" : "No hay camino");
+        Console.WriteLine(Ruta(laberinto2, 0, 0, 7, 4) ? "TRUE" : "FALSE");
 
         int[][] laberinto3 = new int[][]
         {
@@ -123,7 +123,7 @@ public class Laberinto
         };
 
         Console.WriteLine("Laberinto 3:");
-        Console.WriteLine(Ruta(laberinto3, 0, 0, 9, 9) ? "Camino encontrado" : "No hay camino");
+        Console.WriteLine(Ruta(laberinto3, 0, 0, 9, 9) ? "TRUE" : "FALSE");
 
 
     }
